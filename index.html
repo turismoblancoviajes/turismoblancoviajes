@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Turismo Blanco Viajes</title>
+
+<style>
+body{
+margin:0;
+font-family: Arial, Helvetica, sans-serif;
+background:#f4f7fb;
+}
+
+/* HEADER */
+header{
+background-image: url('https://www.shutterstock.com/image-photo/beautiful-cloudscape-over-sea-horizon-600nw-2669947257.jpg');
+background-size:cover;
+background-position:center;
+color:white;
+text-align:center;
+padding:120px 20px;
+position:relative;
+}
+
+header::after{
+content:"";
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,0.45);
+}
+
+.header-content{
+position:relative;
+z-index:2;
+}
+
+.logo{
+width:360px;
+max-width:95%;
+margin-bottom:25px;
+}
+
+h1{
+margin:10px 0;
+font-size:40px;
+}
+
+.section{
+padding:60px 20px;
+text-align:center;
+}
+
+.cards{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:30px;
+margin-top:30px;
+}
+
+.card{
+background:white;
+border-radius:15px;
+overflow:hidden;
+width:320px;
+box-shadow:0 8px 25px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.card img{
+width:100%;
+height:230px;
+object-fit:cover;
+}
+
+.card h3{
+margin:15px 0 10px;
+}
+
+.card p{
+padding:0 15px 20px;
+}
+
+.whatsapp{
+display:inline-block;
+margin-top:25px;
+padding:14px 28px;
+background:#25D366;
+color:white;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+font-size:16px;
+}
+
+.whatsapp:hover{
+background:#1ebe5d;
+}
+
+/* BOTÓN FLOTANTE */
+.whatsapp-float{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+color:white;
+padding:15px 18px;
+border-radius:50px;
+text-decoration:none;
+font-weight:bold;
+box-shadow:0 4px 12px rgba(0,0,0,0.3);
+z-index:999;
+}
+
+.whatsapp-float:hover{
+background:#1ebe5d;
+}
+
+.about{
+background:#ffffff;
+padding:60px 20px;
+text-align:center;
+}
+
+.reviews{
+background:#eaf2ff;
+padding:60px 20px;
+text-align:center;
+}
+
+.review-box{
+background:white;
+padding:20px;
+margin:15px auto;
+max-width:600px;
+border-radius:10px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+}
+
+footer{
+background:#0a2a66;
+color:white;
+text-align:center;
+padding:30px 20px;
+}
+
+footer a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="header-content">
+<img src="logo.png" class="logo">
+<h1>Turismo Blanco Viajes</h1>
+<p>Tu próxima aventura comienza acá</p>
+<a class="whatsapp" href="https://wa.me/543413588800" target="_blank">
+Consultar por WhatsApp
+</a>
+</div>
+</header>
+
+<section class="section">
+<h2>Destinos Destacados</h2>
+
+<div class="cards">
+
+<div class="card">
+<img src="https://dynamic-media.tacdn.com/media/photo-o/30/33/90/d9/caption.jpg?w=700&h=500&s=1">
+<h3>Brasil</h3>
+<p>Playas increíbles, aguas cristalinas y diversión asegurada.</p>
+</div>
+
+<div class="card">
+<img src="https://www.travelgrenada.com/wp-content/uploads/2024/05/playas-del-Caribe-2.jpg">
+<h3>Caribe</h3>
+<p>Resorts todo incluido y playas paradisíacas.</p>
+</div>
+
+<div class="card">
+<img src="https://t3.ftcdn.net/jpg/03/96/55/90/360_F_396559013_4OR59i76k0rl9PFVYr8RdbcH0mZgZSiT.jpg">
+<h3>Argentina</h3>
+<p>Las imponentes Cataratas del Iguazú, una maravilla natural única.</p>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1548574505-5e239809ee19">
+<h3>Cruceros</h3>
+<p>Viví la experiencia única de recorrer múltiples destinos en un solo viaje.</p>
+</div>
+
+</div>
+</section>
+
+<section class="about">
+<h2>¿Quiénes Somos?</h2>
+<p>
+Turismo Blanco Viajes es un emprendimiento independiente gestionado directamente por su fundador.
+Brindamos asesoramiento personalizado, seguimiento constante y trabajamos en alianza con operadores turísticos habilitados para garantizar seguridad y respaldo en cada viaje.
+</p>
+</section>
+
+<section class="reviews">
+<h2>Opiniones de nuestros viajeros</h2>
+
+<div class="review-box">
+<p>"Viajamos al Caribe y fue una experiencia increíble. Todo organizado perfecto!"</p>
+</div>
+
+<div class="review-box">
+<p>"Excelente atención y acompañamiento durante todo el viaje. 100% recomendable."</p>
+</div>
+
+<div class="review-box">
+<p>"Nos ayudaron a organizar nuestras vacaciones en Brasil y salió todo perfecto."</p>
+</div>
+
+</section>
+
+<footer>
+<p>© 2026 Turismo Blanco Viajes</p>
+<p>Email: turismoblancoviajes@gmail.com</p>
+<p>
+Instagram:
+<a href="https://instagram.com/turismoblancoviajes" target="_blank">
+@turismoblancoviajes
+</a>
+</p>
+<p style="font-size:13px; margin-top:15px;">
+Operamos en alianza con agencias y operadores habilitados conforme normativa vigente.
+</p>
+</footer>
+
+<a href="https://wa.me/543413588800" class="whatsapp-float" target="_blank">
+WhatsApp
+</a>
+
+</body>
+</html>
